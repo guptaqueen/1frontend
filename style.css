@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+.first h1 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 25px;
+      
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background-size: contain;
+    background-color:hsl(330, 71%, 95%);
+    position: relative;
+   
+}
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 450px;
+    background:white ;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.pre h2{
+    color: hsl(313, 91%, 34%)
+}
+.ins{
+    padding: 25px; 
+}
+.ind h1{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 25px;
+}
+.ind h1{
+  color:  hsl(31, 91%, 41%)
+}
+
+.Nut h1{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 25px;
+}
+.Nut h1{
+    color:  hsl(31, 91%, 41%)
+}
+.left{
+    background-color: goldenrod;
+    width: 50%;
+    float: left;
+}
+.right{
+    background-color: goldenrod;
+    width: 50%;
+    float: right;
+}
